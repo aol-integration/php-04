@@ -10,7 +10,7 @@
 
 
     // Pemeriksaan konfigurasi sudah dilakukan
-    if ($apiToken == '' || $signatureSecret == '' || $apiHost == '') {
+    if ($apiToken == '...' || $signatureSecret == '...' || $apiHost == '...') {
         throw new Exception("File konfigurasi.php harus diisi sebelum dapat menjalankan contoh source code ini.");
     }
 ?>
